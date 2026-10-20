@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}
+body{background:#fff;color:#0a0a0a}
+:focus-visible{outline:2px solid #000;outline-offset:2px}
+.inp{width:100%;border:1px solid #c9c9c5;background:#fff;padding:.6rem .75rem;font-size:.9rem;border-radius:2px}
+.inp:focus{border-color:#000;outline:none}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
