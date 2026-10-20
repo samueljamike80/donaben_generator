@@ -8,7 +8,7 @@ export default function OrderModal({ initialProduct, onClose }: { initialProduct
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     const msg = `*New Order Request*\n\nFull Name: ${f.name}\nPhone: ${f.phone}\nAddress: ${f.address}\nState: ${f.state}\nCity: ${f.city}\nGender: ${f.gender}\nProduct: ${f.product}\nQuantity: ${f.quantity}\nComments: ${f.comments || "None"}`;
-    window.open(`https://wa.me/2347081793022${s.whatsapp_number.replace(/\D/g, "")}?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/2348037983246${s.whatsapp_number.replace(/\D/g, "")}?text=${encodeURIComponent(msg)}`, "_blank");
     onClose();
   };
   return (
